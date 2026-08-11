@@ -1,0 +1,6 @@
+{
+  "name": "Донат — це твій спосіб діяти",
+  "description": "Адаптивна bio-сторінка для підтримки та донатів з інформацією про Монобанк, ПУМБ, Sense Bank, банківські картки та Telegram-спільноту.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
