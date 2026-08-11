@@ -4,8 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // base для GitHub Pages project site (https://<user>.github.io/donate-krrigalerts/)
-  base: '/donate-krrigalerts/',
+  base: '/donate-krrig-alerts/',
 
   plugins: [react(), tailwindcss()],
 
