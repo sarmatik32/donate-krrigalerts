@@ -54,7 +54,7 @@ export const CONFIG: AppConfig = {
   TELEGRAM_CHAT_URL: "https://t.me/+S7qBjr8nNChkNWNi",
 
   // 4. Логотип (Використовується збережений логотип)
-  LOGO_PATH: "/logo.jpg",
+  LOGO_PATH: "/logo.png",
 
   // 5. Заголовки та тексти
   SLOGAN: "Донат — це твій спосіб діяти",
