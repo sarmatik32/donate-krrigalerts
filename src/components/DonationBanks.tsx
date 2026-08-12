@@ -76,7 +76,7 @@ export const DonationBanks: React.FC = () => {
 
             <div className="relative z-10 flex items-center gap-2.5 sm:gap-3.5 min-w-0">
               {/* Bank Logo Image Container */}
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white p-0.5 border border-white/90 shadow-xs overflow-hidden shrink-0 flex items-center justify-center transition-transform du[...]
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white p-0.5 border border-white/90 shadow-xs overflow-hidden shrink-0 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                 <img
                   src={bank.logoUrl}
                   alt={`Логотип ${bank.name}`}
@@ -100,7 +100,7 @@ export const DonationBanks: React.FC = () => {
                     {bank.name}
                   </span>
                   {bank.badge && (
-                    <span className="inline-flex items-center gap-0.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded-full bg-amber-400/90 text-amber-950 border[...]
+                    <span className="inline-flex items-center gap-0.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded-full bg-amber-400/90 text-amber-950 border border-amber-500/50 shrink-0">
                       <Sparkles className="w-2 h-2 fill-amber-950" />
                       {bank.badge}
                     </span>
