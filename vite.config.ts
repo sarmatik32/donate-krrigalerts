@@ -4,7 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/',
+  base: '/donate-krrig-alerts/',
 
   plugins: [react(), tailwindcss()],
 
