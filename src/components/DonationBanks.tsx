@@ -12,7 +12,7 @@ export const DonationBanks: React.FC = () => {
       url: CONFIG.MONOBANK_URL,
       badge: 'ТОП',
       accentColor: 'border-pink-300/80 bg-gradient-to-r from-pink-500/10 to-purple-500/10',
-      logoUrl: '/public/assets/monobank.png',
+      logoUrl: '/assets/monobank.png',
       fallbackColor: 'bg-slate-900 text-white',
       fallbackText: 'mono'
     },
@@ -23,7 +23,7 @@ export const DonationBanks: React.FC = () => {
       url: CONFIG.PUMB_URL,
       badge: '',
       accentColor: 'border-red-200/80 bg-gradient-to-r from-red-500/10 to-rose-500/10',
-      logoUrl: '/public/assets/pumb.png',
+      logoUrl: '/assets/pumb.png',
       fallbackColor: 'bg-red-600 text-white',
       fallbackText: 'ПУМБ'
     },
@@ -34,7 +34,7 @@ export const DonationBanks: React.FC = () => {
       url: CONFIG.SENSE_URL,
       badge: '',
       accentColor: 'border-emerald-200/80 bg-gradient-to-r from-emerald-500/10 to-teal-500/10',
-      logoUrl: '/public/assets/sense.png',
+      logoUrl: '/assets/sense.png',
       fallbackColor: 'bg-teal-600 text-white',
       fallbackText: 'Sense'
     }
@@ -76,7 +76,7 @@ export const DonationBanks: React.FC = () => {
 
             <div className="relative z-10 flex items-center gap-2.5 sm:gap-3.5 min-w-0">
               {/* Bank Logo Image Container */}
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white p-0.5 border border-white/90 shadow-xs overflow-hidden shrink-0 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white p-0.5 border border-white/90 shadow-xs overflow-hidden shrink-0 flex items-center justify-center transition-transform du[...]
                 <img
                   src={bank.logoUrl}
                   alt={`Логотип ${bank.name}`}
@@ -100,7 +100,7 @@ export const DonationBanks: React.FC = () => {
                     {bank.name}
                   </span>
                   {bank.badge && (
-                    <span className="inline-flex items-center gap-0.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded-full bg-amber-400/90 text-amber-950 border border-amber-300/80 shadow-2xs">
+                    <span className="inline-flex items-center gap-0.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded-full bg-amber-400/90 text-amber-950 border[...]
                       <Sparkles className="w-2 h-2 fill-amber-950" />
                       {bank.badge}
                     </span>
