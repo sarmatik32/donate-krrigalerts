@@ -42,7 +42,7 @@ export const Hero: React.FC = () => {
               // Fallback if logo fails to load
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = '/public/logo.png';
+              target.src = '/logo.png';
             }}
           />
         </div>
