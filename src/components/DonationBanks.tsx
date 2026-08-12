@@ -12,7 +12,7 @@ export const DonationBanks: React.FC = () => {
       url: CONFIG.MONOBANK_URL,
       badge: 'ТОП',
       accentColor: 'border-pink-300/80 bg-gradient-to-r from-pink-500/10 to-purple-500/10',
-      logoUrl: '/assets/monobank.png',
+      logoUrl: '/public/assets/monobank.png',
       fallbackColor: 'bg-slate-900 text-white',
       fallbackText: 'mono'
     },
@@ -23,7 +23,7 @@ export const DonationBanks: React.FC = () => {
       url: CONFIG.PUMB_URL,
       badge: '',
       accentColor: 'border-red-200/80 bg-gradient-to-r from-red-500/10 to-rose-500/10',
-      logoUrl: '/assets/pumb.png',
+      logoUrl: '/public/assets/pumb.png',
       fallbackColor: 'bg-red-600 text-white',
       fallbackText: 'ПУМБ'
     },
@@ -34,7 +34,7 @@ export const DonationBanks: React.FC = () => {
       url: CONFIG.SENSE_URL,
       badge: '',
       accentColor: 'border-emerald-200/80 bg-gradient-to-r from-emerald-500/10 to-teal-500/10',
-      logoUrl: '/assets/sense.png',
+      logoUrl: '/public/assets/sense.png',
       fallbackColor: 'bg-teal-600 text-white',
       fallbackText: 'Sense'
     }
